@@ -1,0 +1,30 @@
+:root{
+    --dk-gray: #222;
+    --bright-green: #D7F205;
+    --purple:  #8857F2;
+    --orange: #F28705;
+}
+
+*{
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.35;
+}
+
+header, footer{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+p{
+    max-width: 65ch;
+    margin: 1rem auto;
+}
+
+section > section{
+    width: fit-content;
+    margin: 3rem auto;
+}

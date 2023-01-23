@@ -1,0 +1,34 @@
+
+Basic HTML Text Tags
+Beginning practice with the basic text formatting tags used in HTML5.
+
+
+Comments are used to add additional information to pages that helps developers working on that code. You can also use a comment to hide content from your page.
+Basic HTML Text Tags
+
+
+Marking up Text in Blocks
+When you have text that is displayed in a block, usually with multiple lines, it's considered a paragraph. Paragraph text can include words or phrases that are emphasized in some way, and they can contain links and other markup used for text (but not headings). Paragraphs are block-level elements.
+It may happen that you have text, like a poem, that requires some special formatting. You'd need to ensure that each line displayed at a proper length, and you can do that with the line break tags. These will not be used outside of that purpose or for formatting an address in an address tag. Don't add line breaks to paragraphs, forms, or other page elements. use CSS for styling.
+Remember that you can use tags like &lt;strong&gt; and &lt;em&gt; to convey meaning in text (these are not just to make text bold or italic, they add meaning).
+
+Excerpt from The Raven - a Poem by Edgar Allen Poe
+Once upon a midnight dreary, while I pondered, weak and weary,
+Over many a quaint and curious volume of forgotten lore—
+&nbsp;&nbsp;&nbsp;&nbsp;While I nodded, nearly napping, suddenly there came a tapping,
+As of some one gently rapping, rapping at my chamber door.
+“'Tis some visitor,” I muttered, “tapping at my chamber door—
+&nbsp;&nbsp;&nbsp;&nbsp;Only this and nothing more."
+
+
+Marking Up Text to Convey Meaning
+Sometimes, you are marking up small pieces of text, including single letters and words, to convey some meaning. When doing this, you want to use the most appropriate tags you can.
+
+For example, if your page offered search results, it's likely that you'd want to highlight the terms the user searched for in the results you return. If the user searched for "focus area" and the following paragraph was returned, those words should be highlighted in that paragraph.
+
+The primary focus area must be chosen from one of the four GIT focus areas (Front-end Web Design and Development; Commercial Photography and Video; Digital Design; Print; and Publishing; 2D/3D Animation). The secondary focus area can be any topic that will best aid the student's career path.
+
+We used the &lt;b&gt; and &lt;i&gt; tags above, but we haven't talked about the &lt;u&gt; tags. These are not often used, and can confuse the user as they style text with an underline, the same way that links do by default. A good use for these is to highlight speling errors.
+
+
+Copyright &copy; 2023
